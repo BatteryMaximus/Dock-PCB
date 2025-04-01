@@ -2456,6 +2456,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 129.54) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bc79b6-4fd7-44db-ac9a-339e4bcab2cc")
+	)
+	(wire
+		(pts
 			(xy 132.08 134.62) (xy 123.19 134.62)
 		)
 		(stroke
@@ -2533,6 +2543,16 @@
 			(type default)
 		)
 		(uuid "345634f8-6f50-412c-91ee-bb77100969cf")
+	)
+	(wire
+		(pts
+			(xy 157.48 129.54) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41188d88-9f57-4365-8fcd-58ffb4d228e3")
 	)
 	(wire
 		(pts
@@ -2783,6 +2803,16 @@
 			(type default)
 		)
 		(uuid "d987ee48-be6a-4451-9a24-77f9db38b531")
+	)
+	(wire
+		(pts
+			(xy 154.94 129.54) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfdf9b4e-d21e-481b-8758-5733f3569982")
 	)
 	(wire
 		(pts
@@ -3965,7 +3995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 119.38 73.66 0)
 			(effects
 				(font
@@ -4315,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 196.85 104.14 0)
 			(effects
 				(font
@@ -4431,6 +4461,77 @@
 			(project "SingleCharger"
 				(path "/e710e346-5907-4662-9fec-fc15df74dc9e"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 154.94 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1bde20-5076-4405-a0d7-99de786b9b49")
+		(property "Reference" "J5"
+			(at 154.94 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 154.94 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39cd8629-57e8-4409-a2f0-6852e397a4b2")
+		)
+		(pin "2"
+			(uuid "75f2e461-ac02-41f4-84a4-165183d887d9")
+		)
+		(pin "3"
+			(uuid "300ac993-d827-416f-873d-e460e3097814")
+		)
+		(instances
+			(project "SingleCharger"
+				(path "/e710e346-5907-4662-9fec-fc15df74dc9e"
+					(reference "J5")
 					(unit 1)
 				)
 			)
